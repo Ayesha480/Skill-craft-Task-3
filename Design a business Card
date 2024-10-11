@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiaroscuro Business Card</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #3b2a1d; /* Dark background for contrast */
+        }
+
+        .business-card {
+            width: 400px;
+            height: 200px;
+            background: linear-gradient(145deg, #f5b047, #a6541f); /* Warm color palette gradient */
+            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8); /* Chiaroscuro shadow effect */
+            border-radius: 10px;
+            color: white;
+            padding: 20px;
+            position: relative;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        .details {
+            font-size: 16px;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        .details span {
+            display: block;
+        }
+
+        .details span.title {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        /* Hover effect for a polished look */
+        .business-card:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="business-card">
+        <div class="logo">My Business</div>
+        <div class="details">
+            <span class="name">John Doe</span>
+            <span class="title">CEO & Founder</span>
+            <span class="email">john.doe@example.com</span>
+            <span class="phone">(123) 456-7890</span>
+        </div>
+    </div>
+
+</body>
+</html>
