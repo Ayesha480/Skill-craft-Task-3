@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chiaroscuro Business Card</title>
+    <title>A&A Business Card</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -26,10 +26,18 @@
             position: relative;
         }
 
-        .logo {
-            font-size: 24px;
+        .company-name {
+            font-size: 28px;
             font-weight: bold;
-            letter-spacing: 2px;
+            letter-spacing: 3px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .title {
+            font-size: 18px;
+            font-weight: normal;
+            text-align: center;
             margin-bottom: 20px;
         }
 
@@ -44,10 +52,14 @@
             display: block;
         }
 
-        .details span.title {
-            font-size: 14px;
+        .details span.name {
+            font-size: 16px;
             font-weight: bold;
             margin-bottom: 5px;
+        }
+
+        .details span.location {
+            font-size: 14px;
         }
 
         /* Hover effect for a polished look */
@@ -60,12 +72,11 @@
 <body>
 
     <div class="business-card">
-        <div class="logo">My Business</div>
+        <div class="company-name">A&A</div>
+        <div class="title">Hand Bags</div>
         <div class="details">
-            <span class="name">John Doe</span>
-            <span class="title">CEO & Founder</span>
-            <span class="email">john.doe@example.com</span>
-            <span class="phone">(123) 456-7890</span>
+            <span class="name">Ayesha</span>
+            <span class="location">Pakistan, Islamabad, Blue Area</span>
         </div>
     </div>
 
